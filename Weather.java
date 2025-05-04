@@ -10,7 +10,7 @@ public class Weather {
         //Si es entre 26 y 35: Que calooorrrrr
         //Si es mayor a 36: Ahí no hay quien viva
         Scanner scanner = new Scanner(System.in);
-        System.out.println("¿Qué temperatura hay en tu ciudad (ºC)?");
+        System.out.print("Ingresa la temperatura en ºC de tu ciudad: ");
         int temperature = scanner.nextInt();
         if (temperature < 0) {
             System.out.println("Te estás congelando");
