@@ -7,12 +7,12 @@ public class TrafficLights {
         //Si es amarillo imprime en la terminal: Ten cuidado
         //Si es rojo imprime en la terminal: ¡¡¡Para!!!
         //Si es otro color imprime en la terminal: El semáforo está dañado
-        String colour = "rojo";
-        if (colour == "verde") {
+        String colour = "amarillogg";
+        if (colour.equals("verde")) {
             System.out.println("Puedes seguir");
-        } else if (colour == "amarillo") {
+        } else if (colour.equals("amarillo")) {
             System.out.println("Ten cuidado");
-        } else if (colour == "rojo") {
+        } else if (colour.equals("rojo")) {
             System.out.println("¡¡¡Para!!!");
         } else {
             System.out.println("El semáforo está dañado");
